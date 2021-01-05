@@ -8,5 +8,5 @@ Hono supports devices communicating via common IoT protocols like HTTP, MQTT, AM
 Eclipse Hono is used in Bosch IoT Hub[2].
 
 ### References
-[1] : https://www.eclipse.org/hono
+[1] : https://www.eclipse.org/hono   
 [2] : https://docs.bosch-iot-suite.com/hub/index.html
