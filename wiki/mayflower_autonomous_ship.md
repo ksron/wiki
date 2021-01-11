@@ -99,10 +99,22 @@
 * IXBlue
 
 ### Research Partners
-
+* Turnchapel Wharf
+* Intellisense
+* Valeport
+* Chelsea Technologies
+* iXSea
+* RS Aqua
+* Teledyne ISCO
+* Plymouth Marine Lab
+* Human Interface Technologies Team
+* University of Plymouth
+* Jupiter Research Foundation
+* University of Liverpool
+* University of Newcastle
 
 ### Reference
-[1] : [Technology, Mayflower Autonomus Ship Official](https://mas400.com/technology)
-[2] : [Sea Trials Begin for Mayflower Autonomous Ship's 'AI Captain', IBM News Room](https://newsroom.ibm.com/2020-03-05-Sea-Trials-Begin-for-Mayflower-Autonomous-Ships-AI-Captain#assets_all)
-[3] : [Mayflower Autonomous Ship Launches, IBM News Room](https://newsroom.ibm.com/2020-09-15-Mayflower-Autonomous-Ship-Launches)
+[1] : [Technology, Mayflower Autonomus Ship Official](https://mas400.com/technology)   
+[2] : [Sea Trials Begin for Mayflower Autonomous Ship's 'AI Captain', IBM News Room](https://newsroom.ibm.com/2020-03-05-Sea-Trials-Begin-for-Mayflower-Autonomous-Ships-AI-Captain#assets_all)   
+[3] : [Mayflower Autonomous Ship Launches, IBM News Room](https://newsroom.ibm.com/2020-09-15-Mayflower-Autonomous-Ship-Launches)   
 [4] : [Partners, Mayflower Autonomus Ship Official](https://mas400.com/partners)
