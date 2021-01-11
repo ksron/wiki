@@ -10,10 +10,12 @@ Consists of 5 parts:
 1. Part C: Light and shapes
 1. Part D: Light and sound signals
 1. Part E: Exceptions
+
 ![parts and sections](./images/COLREGS/COLREG-parts-and-sections.jpg)
 
 ### Part B: Steering and sailing rules
 Divided into 3 parts based upon the state of visibility
+
 ![part B](./images/COLREGS/COLREGS-Part-B.jpg)
 
 #### Rule 5: Look out
