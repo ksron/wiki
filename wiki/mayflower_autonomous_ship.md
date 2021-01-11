@@ -1,7 +1,7 @@
 # Mayflower Autonomous Ship(MAS)
 ## Overview
 * purpose : world's first full-sized, fully autonomous unmanned ship across the Atlantic Ocean
-* Participant: Research organization ProMare, IBM + other partners
+* Participant: Research organization [ProMare](https://www.promare.org/), IBM + other partners
 * Use IBM's AI, cloud, edge tech.
 * Plymouth(England) -> Plymouth(MA, USA)
 * Monday, April 19th, 2021
