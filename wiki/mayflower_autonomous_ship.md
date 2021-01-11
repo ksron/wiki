@@ -13,6 +13,7 @@
 * 6 AI powered cameras
 * 30 Onboard sensors
 * 15 Edge devices
+
 ![MAS Fact](./images/MAS_spec.png)
 
 ### Sensory Inputs
@@ -39,6 +40,7 @@
 ### Ship Design
 * Trimaran design giving it a low, highly stable and dynamic profile
 * Made from aluminium and composite matereials, the Mayflower is very light weight:about 5 tonnes at 15meters long and 6.2meters wider. 
+
 ![MAS design](./images/MAS_design.PNG)
 
 ### Edge Computing Systems
