@@ -1,4 +1,4 @@
-# International Regulations for Preventing Collisions at Sea
+# International Regulations for Preventing Collisions at Sea(COLREGs)
 * International Regulations for Preventing Collisions at Sea 1972(COLREGs)
 * published by the International Maritime Organization (IMO)
 * "rules of the road" or navigation rules to be followed by ships and other vessels at sea to prevent collisions between two or more vessels[2]
