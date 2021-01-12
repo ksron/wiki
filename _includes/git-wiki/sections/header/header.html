@@ -44,6 +44,7 @@
     {% endif %}
   </div>
 </header>
+<script src="/assets/vanilla-back-to-top.min.js"></script>
 <script>
   function sidebar_toggle() {
     var sidebar = document.getElementById("git-wiki-sidebar");
@@ -54,4 +55,6 @@
       $(sidebar).attr('style', 'display: block;');
     }
   }
+
+  addBackToTop()
 </script>
