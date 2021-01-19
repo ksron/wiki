@@ -6,7 +6,7 @@
 ## Brief[4]
 Consists of 5 parts:
 1. Part A: General
-1. [Part B: Steering and sailing rules](<#part-b:-steering-and-sailing-rules>)
+1. [Part B: Steering and sailing rules](<#part-b-steering-and-sailing-rules>)
 1. Part C: Light and shapes
 1. Part D: Light and sound signals
 1. Part E: Exceptions
