@@ -1,20 +1,23 @@
 # ROS
 
-## Overview[2]
+## Overview
 
-* The Robot Operating System (ROS) is a set of software libraries and tools for building robot applications. From drivers to state-of-the-art algorithms, and with powerful developer tools, ROS has what you need for your next robotics project
-* Open source
-* ROS was started in 2007
+The Robot Operating System (ROS) is a flexible framework for writing robot software. It is a collection of tools, libraries, and conventions that aim to simplify the task of creating complex and robust robot behavior across a wide variety of robotic platforms.[4]
 
-### ROS1[1]
+* provides hardware abstraction, low-level device control, implementation of commonly-used functionality, message-passing between processes, and package management[5]
+* provides tools and libraries for obtaining, building, writing, and running code across multiple computers [5]
+* 3-clause BSD license (Open source license)
+	* very permissive open license
+    * allows for reuse in commercial and closed source products without the need of publishing the source code
+* only runs on Unix-based platforms [5]
+
+### ROS1
 
 * ROS (Robot Operating System) provides libraries and tools to help software developers create robot applications
-* It provides hardware abstraction, device drivers, libraries, visualizers, message-passing, package management, and more
-* ROS is licensed under an open source, BSD license.
 
 ### ROS2
 
-#### Key Concepts
+#### Key Concepts [3]
 
 * Nodes: A node is an entity that uses ROS to communicate with other nodes.
 * Messages: ROS data type used when subscribing or publishing to a topic.
@@ -29,4 +32,6 @@
 
 [1] : [ROS1 Documentation](http://wiki.ros.org/Documentation)   
 [2] : [ROS2 Documentation](https://index.ros.org/doc/ros2/)   
-[3] : [ROS2 Concepts](https://index.ros.org/doc/ros2/Concepts)
+[3] : [ROS2 Concepts](https://index.ros.org/doc/ros2/Concepts)   
+[4] : [ROS official](https://www.ros.org/about-ros/)   
+[5] : [ROS wiki/Introduction](http://wiki.ros.org/ROS/Introduction)
