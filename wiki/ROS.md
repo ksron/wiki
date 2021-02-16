@@ -24,11 +24,14 @@ The Robot Operating System (ROS) is a flexible framework for writing robot softw
 * Topics: Nodes can publish messages to a topic as well as subscribe to a topic to receive messages.
 * Discovery: The automatic process through which nodes determine how to talk to each other.
 
+## List of Tools & Libraries
 
+* Full list: [https://fkromer.github.io/awesome-ros2/](https://fkromer.github.io/awesome-ros2/) 
+* 
 
 ---
 
-### References
+## References
 
 [1] : [ROS1 Documentation](http://wiki.ros.org/Documentation)   
 [2] : [ROS2 Documentation](https://index.ros.org/doc/ros2/)   

@@ -49,11 +49,9 @@
 * built on topics and services
 * preemptable
 * steady feedback (topic)
-* 
 
 ---
 
 ## References
 
 [1] : [ROS2 Tutorial](https://index.ros.org/doc/ros2/Tutorials)   
-[2] : 

@@ -15,6 +15,9 @@
 * **Control** defines motion of the vehicle with a twist of velocity and angle (also curvature). The Control module falls into both the Autoware-side stack (MPC and Pure Pursuit) and the vehicle-side interface (PID variants).
 
 ### Autoware.Auto[3]
+
+* Rework of Autoware.AI with ROS2 basis
+
 Two major differentiators:
 
 1. Improved system architecture and module interface design (including messages and APIs)
