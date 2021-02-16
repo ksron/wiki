@@ -10,7 +10,7 @@
 
 1. Receive a desired curvature and calculate a desired steering wheel angle using a vehicle model defined by a set of user-configurable parameters and limits fed into a variable Ackermann-style steering model
 2. Receive a desired speed and convert it into accelerator and brake pedal commands
-   * Uses a set of user-configurable parameters (which are also provided, pre-tuned for the 450h, in a configuration file) as inputs and limits to a heavily-modified, multi-stage PID algorithm
+   * Uses a set of user-configurable parameters as inputs and limits to a heavily-modified, multi-stage PID algorithm
 3. Manages the enabled and disabled state of each individual system
    * automatically manages the desired gear based on the current gear, the requested speed, and the current system status
    * monitors and handles the failure of upstream and inter-node communication

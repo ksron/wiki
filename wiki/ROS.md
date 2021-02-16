@@ -11,9 +11,13 @@ The Robot Operating System (ROS) is a flexible framework for writing robot softw
     * allows for reuse in commercial and closed source products without the need of publishing the source code
 * only runs on Unix-based platforms [5]
 
+---
+
 ### ROS1
 
 * ROS (Robot Operating System) provides libraries and tools to help software developers create robot applications
+
+---
 
 ### ROS2
 
@@ -24,10 +28,23 @@ The Robot Operating System (ROS) is a flexible framework for writing robot softw
 * Topics: Nodes can publish messages to a topic as well as subscribe to a topic to receive messages.
 * Discovery: The automatic process through which nodes determine how to talk to each other.
 
+---
+
+## General Concept
+
+Refer to [ROS/ROSConcept](./ROSConcepts.md)
+
+---
+
 ## List of Tools & Libraries
 
 * Full list: [https://fkromer.github.io/awesome-ros2/](https://fkromer.github.io/awesome-ros2/) 
-* 
+
+---
+
+## Other Useful Resources
+
+Refer to [ROS/ROS2Resources](./ROS2Resources.md)
 
 ---
 
