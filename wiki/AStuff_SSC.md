@@ -15,6 +15,11 @@
    * automatically manages the desired gear based on the current gear, the requested speed, and the current system status
    * monitors and handles the failure of upstream and inter-node communication
 
+## Other Resources
+
+* [AutonomouStuff’s SSC Interface brief diagram](https://github.com/Autoware-AI/autoware.ai/issues/1944)   
+* [AutonomouStuff Products](https://autonomoustuff.com/product/) 
+
 ---
 
 ## Refererences
