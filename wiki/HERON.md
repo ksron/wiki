@@ -44,16 +44,28 @@ Robot packages for Heron
 
 #### heron_base
 Heron's mobility and sensor base
+* config: default configuration on location(magnetic centre)
+* env-hooks
+* launch/base.launch
+* scripts/snmp_lights.py
 
 #### heron_bringup
 Provides upstart setup for Heron, and launch files for the standard config.   
-Provides config. for u-blox GPS receiver(part of Heron's sensor suite)
+Provides config. for u-blox GPS receiver(part of Heron's sensor suite)   
+**Run_depend**: [axis_camera](http://wiki.ros.org/axis_camera), *heron_base*, [lms1xx](http://wiki.ros.org/LMS1xx), [nmea_comms](http://wiki.ros.org/nmea_comms), [nmea_navsat_driver](http://wiki.ros.org/nmea_navsat_driver), [robot_upstart](http://wiki.ros.org/robot_upstart)
+* scripts/calibrate_compass: runs general system check and compute magnet calibration
+* scripts/compute_calibration: Process IMU bag file for compass calibration
+* scripts/install: install launch driver components of Heron's supported accessories & Heron base components
+* scripts/navsat_rtk_relay
+* scripts/netserial
+* scripts/setup: install udev rules, configure ublox GPS
 
 #### heron_nmea
-heron_nmea package for users to control and receive data from the Heron in the form of NMEA sentences
+[heron_nmea](https://github.com/heron/heron_robot/tree/kinetic-devel/heron_nmea/REFERENCE.md) package for users to control and receive data from the Heron in the form of NMEA sentences
 
 #### heron_robot
-Metapackage for the default behavior of Heron
+Metapackage for the default behavior of Heron   
+* Run_depend: heron_bringup, heron_controller, heron_firmware, heron_nmea
 
 ### heron_simulator
 Simulator package for Heron USV   
@@ -162,6 +174,9 @@ Vector3  torque
 
 ### Heron
 
+### heron_robot
+
+
 
 ### heron_controller
 #### `src/force_compensator.cpp`
@@ -181,24 +196,25 @@ Vector3  torque
 	6. calculate effective wrench being sent out & update
 
 #### `src/controller.cpp`
-* Class Controller(ros::NodeHandle &n): node_(n)
-    1. 
-    2. 
-    3. Setup for Fwd Vel controller, Yaw Rate controller, Yaw controller
-* main
-    1. initialize controller
-    2. initialize Subscribers
-        * "cmd_vel"
+**Class Controller(ros::NodeHandle &n): node_(n)**
+1. 
+2. 
+3. Setup for Fwd Vel controller, Yaw Rate controller, Yaw controller
+
+**main**
+1. initialize controller
+2. initialize Subscribers
+    * "cmd_vel"
 	* "cmd_wrench"
 	* "cmd_helm"
 	* "cmd_course"
 	* "odometry/filtered"
-    3. initialize Timer
-        * control_output timer: duration(1/50), call control_update
+3. initialize Timer
+    * control_output timer: duration(1/50), call control_update
 	* console_update timer: duration(1), call console_update
 
 
-### heron_robot
+
 
 ---
 
